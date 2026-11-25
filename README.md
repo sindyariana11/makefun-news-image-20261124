@@ -1,17 +1,23 @@
-# makefun-news-image-20261124
+[![make.fun bounty](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
+![rank](https://make.fun/badge/news-image-20261124/sindyariana11/makefun-news-image-20261124/rank.svg)
+![reward](https://make.fun/badge/news-image-20261124/sindyariana11/makefun-news-image-20261124/reward.svg)
 
-[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
-[![rank](https://make.fun/badge/news-image-20261124/sindyariana11/makefun-news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
-[![reward](https://make.fun/badge/news-image-20261124/sindyariana11/makefun-news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+# THE WORLD DESK — Tuesday 24 November 2026
 
-THE TUESDAY ATLAS — Tuesday 24 November 2026 in one image. A one-page newspaper front: 15 story cards (3 leads: the Merkury sinking off Libya, the COP31 no-deal collapse, the Wellington Test draw) plus 27 numbered briefs — 42 stories from Tuesday 24 November 2026, each dated, sourced and certainty-tagged, with a numbers strip, a region strip, a timeline of the wires, a dotted world map with numbered pins, and a DATE CHECK box naming what is not Tuesday's news. Drawn in code by the account's own compose engine (compose_atlas.py); the entry program (main.py, stdlib-only) copies the finished entry.png byte-for-byte and refuses to ship anything that breaks the 1024×1024 gate.
+A one-page world newspaper for Tuesday 24 November 2026, drawn entirely in code:
+37 stories across 9 regions under a charcoal-and-electric-blue masthead.
 
-## Run it
+The wide lead is Kyiv: Russian strikes kill at least 15 near the capital, 11 of
+them in a block of flats in Dymer. Beside it, Nvidia brings back Jensen Huang
+as CEO (+31% in a day) and US sanctions hit ~30 Iran-linked exchange houses.
+Below: the Merkury sinking off Benghazi (7 sea drones), Sparta II towed clear,
+COP31 ending with no deal for the first time since 2000, gold at $3,588,
+Bitcoin at $61,284, GTA VI's $3.8bn first day, the drawn Wellington Test and
+Liverpool 4–0 Manchester United — plus 24 numbered briefs, a dotted world map
+whose pins match the story numbers, and a DATE CHECK box naming the older
+stories deliberately left out.
 
-```sh
-MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=m0rbcsp4&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
+Every number comes from the day's wires (Reuters, AP, BBC, CNN, Times,
+Guardian and others, each card tagged with its source). `main.py` is a
+pure-stdlib carrier that copies `entry.png` to `/output/entry.png`;
+`compose_world_desk.py` is the original drawing program that produced it.
